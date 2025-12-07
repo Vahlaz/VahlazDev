@@ -2,20 +2,72 @@
 
 <template>
   <div
-    class="min-h-screen bg-[url(../assets/starlight.gif)] text-white font-[Quicksand] font-bold position: relative"
+    class="min-h-screen bg-[url(../assets/starlight.gif)] bg-size-[400px] font-[Jost] font-semibold text-gray-200 position: relative overflow-hidden"
   >
     <div class="flex flex-col justify-between items-center min-h-[90vh]">
       <div class="flex flex-col items-center">
-        <h1 class="text-7xl mt-6">Vahlaz</h1>
-        <h2 class="text-4xl mt-6 max-w-[65vw]">
-          full-stack developer and computer science student at Aalto university
+        <h1
+          class="text-8xl mt-6 font-bold shadow-2xl rounded-2xl p-2 shadow-gray-800/45 bg-gray-800/30 font-[MoonveilStellarion]"
+        >
+          Vahlaz.ᵈᵉᵛ
+        </h1>
+        <h2
+          class="text-4xl max-w-[65vw] shadow-2xl mt-2 rounded-2xl p-2 shadow-gray-800/45 bg-gray-800/30"
+        >
+          Hi, I'm Atte! A developer and computer science student from Aalto
+          university
         </h2>
       </div>
       <img src="../assets/moon.gif" class="size-45" />
-      <h2 class="text-4xl">Portfolio</h2>
+      <h2
+        class="text-4xl font-bold shadow-2xl rounded-2xl p-2 shadow-gray-800/60 bg-gray-800/30"
+      >
+        Portfolio
+      </h2>
     </div>
 
     <div class="flex flex-col justify-center items-center">
+      <div
+        class="md:hidden flex justify-around max-w-[95vw] space-x-5 p-2 invert text-black font-[Antonio] text-xl shadow-xl rounded-2xl shadow-gray-400/30 bg-gray-400/30"
+      >
+        <a
+          href="https://github.com/Vahlaz"
+          class="flex hover:text-green-500 hover:font-bold p-1 rounded-xl"
+        >
+          <div class="flex items-center align-middle">
+            <img
+              class="h-6 w-6 aspect-square mr-1"
+              src="../assets/github-mark.svg"
+            />
+            - GitHub
+          </div>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/atte-räty"
+          class="flex hover:text-green-500 hover:font-bold p-1 rounded-xl"
+        >
+          <div class="flex h-7 items-center align-middle">
+            <img
+              class="h-5 w-6 aspect-square mr-1"
+              src="../assets/linkedin.svg"
+            />
+            - LinkedIn
+          </div>
+        </a>
+        <a
+          href="./cv.pdf"
+          class="flex hover:text-green-500 hover:font-bold p-1 rounded-xl"
+        >
+          <div class="flex h-7 items-center align-middle">
+            <img
+              class="h-6 w-6 aspect-square mr-1"
+              src="../assets/article_person.svg"
+            />
+            - CV
+          </div>
+        </a>
+      </div>
       <div
         alt="backdrop"
         class="bg-[url(../assets/FutuBoard.png)] bg-cover bg-center transition-all delay-75 duration-200 w-300 h-200 max-w-[95vw] text-white rounded-xl shadow-xl outline-1 outline-gray-700 shadow-gray-800 m-8"
@@ -23,7 +75,11 @@
         <div
           class="flex flex-col columns-1 justify-center align-middle items-center h-full w-full position: relative"
         >
-          <div class="text-6xl p-4">FutuBoard</div>
+          <div
+            class="text-6xl p-4 max-w-[90vw] font-bold overflow-hidden wrap-break-word"
+          >
+            FutuBoard
+          </div>
           <div class="text-2xl p-4 max-w-225 overflow-hidden">
             Futuboard is a free, easy-to-use and open-source web tool for
             workflow management that requires no registration. It can be used to
@@ -53,10 +109,14 @@
         <div
           class="flex flex-col columns-1 justify-center align-middle items-center h-full w-full position: relative"
         >
-          <div class="text-6xl p-4">KaraSaber</div>
+          <div
+            class="text-6xl p-4 max-w-[90vw] overflow-hidden wrap-break-word"
+          >
+            KaraSaber
+          </div>
           <div class="text-2xl p-4 max-w-225 overflow-hidden">
             A beat saber clone that creates boxes based on Ultrastar deluxe
-            karaoke files.All you need to add a song is to add the sound file
+            karaoke files. All you need to add a song is to add the sound file
             and lyric file to the resources folder. Buttons are created
             dynamically for added songs.
           </div>
@@ -76,11 +136,15 @@
         <div
           class="flex flex-col columns-1 justify-center align-middle items-center h-full w-full position: relative backdrop-brightness-50 bg-contain"
         >
-          <div class="text-6xl p-4">ByTheLake</div>
+          <div
+            class="text-6xl p-4 max-w-[90vw] overflow-hidden wrap-break-word"
+          >
+            ByTheLake
+          </div>
           <div class="text-2xl p-4 max-w-225 overflow-hidden">
             ByTheLake transports the user into the middle of a lakeside
             landscape in the summer, where they can explore the environment,
-            listen to nature’s sounds, and feel the calmness brought by the
+            listen to nature's sounds, and feel the calmness brought by the
             forest and water.
           </div>
           <a
@@ -104,7 +168,11 @@
         <div
           class="flex flex-col columns-1 justify-center align-middle items-center h-full w-full position: relative"
         >
-          <div class="text-6xl p-4">ScuffedPuolustus</div>
+          <div
+            class="text-6xl p-4 max-w-[90vw] overflow-hidden wrap-break-word"
+          >
+            ScuffedPuolustus
+          </div>
           <div class="text-2xl p-4 max-w-225 overflow-hidden">
             ScuffedPuolustus is a simple tower defense game in which the player
             tries to prevent enemies from reaching the end of the path. The
@@ -122,7 +190,9 @@
       </div>
     </div>
   </div>
-  <div class="position: fixed left-4 top-4 flex-col p-2 invert">
+  <div
+    class="max-md:hidden position: fixed left-4 top-4 flex-col p-2 invert font-[Antonio] text-xl shadow-xl rounded-2xl shadow-gray-400/30 bg-gray-400/30"
+  >
     <a
       href="https://github.com/Vahlaz"
       class="flex hover:text-green-500 hover:font-bold p-1 rounded-xl"
