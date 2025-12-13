@@ -7,18 +7,26 @@
     <div class="flex flex-col justify-between items-center min-h-[90vh]">
       <div class="flex flex-col items-center">
         <h1
-          class="text-8xl mt-6 font-bold shadow-2xl rounded-2xl p-2 shadow-gray-800/45 bg-gray-800/30 font-[MoonveilStellarion]"
+          class="text-8xl mt-6 font-bold shadow-2xl rounded-2xl pb-0 p-3 shadow-gray-800/45 bg-gray-800/30 font-[MoonveilStellarion]"
         >
           Vahlaz.ᵈᵉᵛ
         </h1>
         <h2
-          class="text-3xl md:text-4xl text-center max-w-[65vw] shadow-2xl mt-2 rounded-2xl p-2 shadow-gray-800/45 bg-gray-800/30"
+          class="text-3xl md:text-4xl text-center max-w-[65vw] shadow-2xl mt-5 rounded-2xl p-2 shadow-gray-800/45 bg-gray-800/30"
         >
           Hi, I'm Atte! A developer and computer science student from Aalto
           university
         </h2>
       </div>
-      <img src="../assets/moon.gif" class="size-45" />
+      <img
+        src="../assets/moon.gif"
+        style="
+          image-rendering: -webkit-optimize-contrast;
+          image-rendering: -moz-crisp-edges;
+          image-rendering: pixelated;
+        "
+        class="size-45"
+      />
       <h2
         class="text-4xl font-bold shadow-2xl rounded-2xl p-2 shadow-gray-800/60 bg-gray-800/30"
       >
