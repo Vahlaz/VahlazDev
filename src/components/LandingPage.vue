@@ -184,7 +184,7 @@
           <div class="text-2xl p-4 max-w-225 overflow-hidden">
             KirjaKirppis is a simple website made for selling and purchasing
             second hand high school course books. It has specific sites for all
-            high schools in finland, as well as icons for all course books
+            high schools in Finland, as well as icons for all course books
             officially in use by the schools. It also has users with token based
             authentication.
           </div>
@@ -228,6 +228,17 @@
             code
           </a>
         </div>
+      </div>
+      <h2
+        class="text-4xl font-bold shadow-2xl rounded-2xl p-2 shadow-gray-800/60 bg-gray-800/30 flex justify-center"
+      >
+        Activity
+        <div class="text-sm p-1">(in CS2)</div>
+      </h2>
+      <div
+        class="bg-gray-700/30 shadow-2xl shadow-gray-700/30 rounded-2xl mb-20 m-8 w-300 max-w-[95vw]"
+      >
+        <img src="../assets/activity.png" />
       </div>
     </div>
   </div>
